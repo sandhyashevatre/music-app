@@ -11,6 +11,7 @@ The Music App is a web application that allows users to manage playlists and son
 
 ## Prerequisites
 - Java Development Kit (JDK)
+- Spring-Boot(Maven)
 - Angular CLI
 - MySQL Database
 - Git (for version control)
