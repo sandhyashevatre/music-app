@@ -67,3 +67,8 @@ The Music App is a modern web application that empowers users to explore, create
 3. **Make your changes and commit them.**
 4. **Push to your fork and submit a pull request.**
 
+## Team Members
+- **Sandhya Shevatre**
+- **Gaurav Hajare**
+- **Ashish Sri Perambuduru**
+
