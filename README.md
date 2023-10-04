@@ -43,11 +43,7 @@ The Music App is a web application that allows users to manage playlists and son
 3. **Make your changes and commit them.**
 4. **Push to your fork and submit a pull request.**
 
-## License
-This project is licensed under the XYZ License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Contact
-For any questions or support, please contact Your Name.
 
 
 
