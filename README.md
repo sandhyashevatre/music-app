@@ -17,4 +17,5 @@ The Music App is a web application that allows users to manage playlists and son
 
 ## Getting Started
 1. **Clone the repository:**
-
+ ```shell
+   git clone <repository_url>
