@@ -20,25 +20,61 @@ The Music App is a web application that allows users to manage playlists and son
  ```shell
    git clone <repository_url>
 
-2. **Backend (Spring Boot):**
 
-- Open the project in your Java IDE (e.g., VS Code,Eclipse, IntelliJ IDEA).
-- Configure the database connection in application.properties.
+2. **Backend (Spring Boot):**
+- Open the project in your Java IDE (e.g., Eclipse, IntelliJ IDEA).
+- Configure the database connection in `application.properties`.
 - Run the Spring Boot application.
-- Frontend (Angular):
 
 3. **Frontend (Angular):**
-
-- Navigate to the frontend directory in your terminal.
+- Navigate to the `frontend` directory in your terminal.
 - Install Angular CLI (if not installed):
- ```shell
-   npm install -g @angular/cli
--Install project dependencies:
- ```shell
-   npm install
+  ```
+  npm install -g @angular/cli
+  ```
+- Install project dependencies:
+  ```
+  npm install
+  ```
 - Start the Angular application:
- ```shell
-ng serve
+  ```
+  ng serve
+  ```
+
+4. **Access the application in your web browser:**
+- Open a web browser and go to `http://localhost:4200`.
+
+## Usage
+- Register and log in to your account.
+- Explore the list of all available songs.
+- Create new playlists.
+- Add songs to your playlists.
+- Remove songs from your playlists.
+
+## APIs
+- **GET /music/allSongs**: Retrieve a list of all songs.
+- **GET /music/playlistSongs**: Retrieve a list of playlist songs.
+- **POST /music/createPlaylist**: Create a new playlist.
+- **POST /music/addToPlaylist**: Add a song to a playlist.
+- **POST /music/removeFromPlaylist**: Remove a song from a playlist.
+
+## Data Models
+- **AllSongs**: Represents a song.
+- **Playlists**: Represents a playlist.
+- **PlaylistSongs**: Represents the relationship between songs and playlists.
+
+## Contributing
+1. **Fork the repository.**
+2. **Create a new branch.**
+3. **Make your changes and commit them.**
+4. **Push to your fork and submit a pull request.**
+
+## License
+This project is licensed under the XYZ License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+For any questions or support, please contact Your Name.
+
 
 
 
