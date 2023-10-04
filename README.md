@@ -15,33 +15,7 @@ The Music App is a web application that allows users to manage playlists and son
 - MySQL Database
 - Git (for version control)
 
-## Getting Started
-1. **Clone the repository:**
- ```shell
-   git clone <repository_url>
-
-
-2. **Backend (Spring Boot):**
-- Open the project in your Java IDE (e.g., Eclipse, IntelliJ IDEA).
-- Configure the database connection in `application.properties`.
-- Run the Spring Boot application.
-
-3. **Frontend (Angular):**
-- Navigate to the `frontend` directory in your terminal.
-- Install Angular CLI (if not installed):
-  ```
-  npm install -g @angular/cli
-  ```
-- Install project dependencies:
-  ```
-  npm install
-  ```
-- Start the Angular application:
-  ```
-  ng serve
-  ```
-
-4. **Access the application in your web browser:**
+**Access the application in your web browser:**
 - Open a web browser and go to `http://localhost:4200`.
 
 ## Usage
