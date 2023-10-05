@@ -1,4 +1,4 @@
-# Music App
+# Music App (Gastify)
 
 ## Project Description
 The Music App is a modern web application that empowers users to explore, create, and manage their music playlists. Built on a robust and secure architecture, it combines a Spring Boot-based backend and an Angular-based frontend, offering a seamless and enjoyable music experience.
