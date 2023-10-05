@@ -14,7 +14,7 @@ The Music App is a modern web application that empowers users to explore, create
 
 ## How It Works
 
-- Registration and Login: Users begin their journey by creating an account. They provide essential details like a unique username, a secure password. 
+- Registration and Login: Users begin their journey by creating an account. They provide essential details like a unique username, a secure password. Other way of login will be login with E-mail Id from Okta. 
 
 - Exploring Music: Once logged in, users can browse through the extensive catalog of songs available in the app. They can search for specific songs, artists, or albums, making it easy to find and discover music that resonates with them.
 
