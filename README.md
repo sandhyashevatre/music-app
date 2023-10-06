@@ -61,6 +61,10 @@ The Music App is a modern web application that empowers users to explore, create
 - **Playlists**: Represents a playlist.
 - **PlaylistSongs**: Represents the relationship between songs and playlists.
 
+ ## Database
+
+  ![Database image](database.png)
+
 ## Contributing
 1. **Fork the repository.**
 2. **Create a new branch.**
@@ -71,8 +75,4 @@ The Music App is a modern web application that empowers users to explore, create
 - **Sandhya Shevatre**
 - **Gaurav Hajare**
 - **Ashish Sri Perambuduru**
-
-  ## Database
-
-  ![Forum System UML View](database.png)
 
