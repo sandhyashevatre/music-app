@@ -1,0 +1,10 @@
+<div class="h">
+    <h2>All Categories</h2>
+  </div>
+  
+  <div class="category-boxes">
+    <div *ngFor="let category of categories" class="category-box">
+      <img [src]="category.image" alt="{{ category.name }} Image" class="image" />
+    </div>
+  </div>
+  

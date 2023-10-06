@@ -1,0 +1,12 @@
+<div class="head">
+<h1>Playlists</h1>
+</div>
+<br><br>
+<div class="music-player">
+    <div class="playlist-card" *ngFor="let playlist of playlists">
+    <img src="https://rb.gy/o7a7j">
+      <h2 (click)="seePlaylistSongs(playlist.id)">{{ playlist.title }}</h2>
+      <button (click)="deletePlaylist(playlist.id)">Delete</button>
+    </div>
+</div>
+  

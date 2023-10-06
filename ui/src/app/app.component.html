@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+</head>
+<body>
+    <div class="sidebar">
+        <header>
+            <h2>Gostify</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a routerLink="/login-form" *ngIf="!isLoggedIn">Login</a></li>
+                <li><app-auth-logout></app-auth-logout></li>
+                <li><button (click)="logout()" class="logout-button" *ngIf="isLoggedIn">Logout</button></li>
+                <li><a routerLink="/home" *ngIf="isLoggedIn">Home</a></li>
+                <li><a routerLink="/playlists" *ngIf="isLoggedIn">Playlists</a></li>
+                <li *ngIf="isLoggedIn">
+                    <button (click)="toggleAddPlaylistForm()">Create Playlist</button>
+                    <div *ngIf="showAddPlaylistForm">
+                        <input type="text" [(ngModel)]="newPlaylistTitle" placeholder="Enter Playlist Title">
+                        <button (click)="createPlaylist()">Create</button>
+                    </div>
+                </li>
+                <li><a routerLink="/all-categories" *ngIf="isLoggedIn">Category</a></li>
+                <li><a routerLink="/search-results" *ngIf="isLoggedIn">Search</a></li>
+                <li><a routerLink="/user-profile" *ngIf="isLoggedIn">User Profile</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+
+
+    
+</body>
+</html>

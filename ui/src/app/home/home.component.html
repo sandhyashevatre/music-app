@@ -1,0 +1,35 @@
+<div class="music-player">
+    <div class="playlist-card" *ngFor="let song of songs" (click)="selectSong(song)">
+        <div class="song-image">
+            <img src="https://rb.gy/yt9gf" alt="{{ song.songName }}">
+        </div>
+        <div class="song-details">
+            <h2>{{ song.songName }}</h2>
+            <p><strong>Singer:</strong> {{ song.singer }}</p>
+            <p><strong>Album:</strong> {{ song.album }}</p>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="selectedSong" class="playlist-bar">
+    <button class="play-pause-button" (click)="togglePlayback()">
+        {{ isPlaying ? 'Pause' : 'Play' }}
+    </button>
+    <div class="selected-song-details">
+        <div class="song-info">
+            <div class="song-title">{{ selectedSong.songName }}</div>
+            <div class="duration-line">
+                <div class="progress-line"></div>
+            </div>
+        </div>
+        <div class="artist-info">Singer: {{ selectedSong.singer }}</div>
+        <div class="composer-info">Composer: {{ selectedSong.composer }}</div>
+        <div class="album-info">Album: {{ selectedSong.album }}</div>
+    </div>
+    <button (click)="addToPlaylist()">Add To Playlist</button>
+    <div *ngIf="listOfPlaylists" class="playlists">
+        <div class="playlist-card" *ngFor="let playlist of playlists" (click)="addSongToSelectedPlaylist(playlist.id)">
+            <h2>{{ playlist.title }}</h2>
+        </div>
+    </div>
+</div>
