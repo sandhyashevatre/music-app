@@ -72,3 +72,7 @@ The Music App is a modern web application that empowers users to explore, create
 - **Gaurav Hajare**
 - **Ashish Sri Perambuduru**
 
+  ## Database
+
+  ![Forum System UML View](database.png)
+
